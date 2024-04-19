@@ -1,0 +1,25 @@
+.starting-page a{
+    font-size: 1.5rem;
+}
+
+.userlist .card{
+    min-height: 70vh;
+    height: 100%;
+}
+
+.dropify-render img{
+    border-radius: 50%;
+}
+.dropify-preview{
+    background: transparent !important;
+}
+
+.pagination .flex-1 span, .pagination .flex-1 a{
+    background-color: #a343ff !important;
+}
+.pagination p{
+    margin-top: 1rem;
+}
+.pagination .shadow-sm{
+    display: none !important;
+}

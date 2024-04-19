@@ -13,7 +13,7 @@ class CompanyController extends Controller
     */
     public function index()
     {
-        $companies = Company::orderBy('id','desc')->paginate(5);
+        $companies = Company::orderBy('id')->paginate(10);
         return view('companies.index', compact('companies'));
     }
 
@@ -43,7 +43,7 @@ class CompanyController extends Controller
         
         Company::create($request->post());
 
-        return redirect()->route('companies.index')->with('success','Company has been created successfully.');
+        return redirect()->route('companies.create')->with('success','Company has been created successfully.');
     }
 
     /**
@@ -96,6 +96,7 @@ class CompanyController extends Controller
     */
     public function destroy(Company $company)
     {
+        // print_r($company->toarray());exit;
         $company->delete();
         return redirect()->route('companies.index')->with('success','Company has been deleted successfully');
     }

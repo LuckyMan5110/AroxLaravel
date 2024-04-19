@@ -1,0 +1,60 @@
+- setup git on the dedicated server --> https://git-scm.com/
+
+
+Create User Login, Registration, Management & Permissions ( User Management ) system --> example https://webguard.eduardofiorini.com/group/add
+
+    - all should be developed with the arox Admin panel envorement, delivered by us --> https://www.spruko.com/demo/arox/html/combined/index3.html
+	- User roles should be real persons and companys, each role should have 3 states ( guest, non-verified-user, verified-user )
+    - each user should have the possibility to add 2 Avantar images, one for personal contacts and one for business contacts
+    - each user can be member of one or more companies
+	- each user shoud get an uniqe id with at least 12 numbers, the id should get an alias that also can be used for login and also need to be uniqe
+    - active session management
+    - user activity and change log --> log for everything the user have done in the system --> example https://demo.vanguardapp.io/activity
+    - create demo companies and demo user to ckeck the funcunality
+	- Build it multilingual with a system to add langruages and edit the translations --> example https://tenancy.demo.quebixtechnology.com/manage-language/en
+
+    admin@admin.com   123456
+    user@user.com     123456
+
+    guest vs non-verified 
+    persons and companys
+    https://wa.me/4915901990972  Christian Schandog
+
+
+
+-update the register page and database, create users_list page, create user_add page, fix users table on database
+
+'tecadmin'@'localhost' IDENTIFIED BY 'Pa$$w0rd
+
+
+-setup phpMyAdmin on the Ubuntu server and set options. (http://62.75.216.17/phpmyadmin/ username:tecadmin password: Pa$$w0rd)
+-created a user edit page 
+-updated user_list page
+-Fix some bugs for Authentification and Routes
+
+
+-update user_list page
+-update create page
+-update edit page
+-code formatting and fix some bugs
+As for above 3 pages, general functions are done, but not ready perfectly. 
+So userlist, add new user, edit user are working now and you can test at http://localhost:8000/users/create  
+(username:admin password:1234567890)
+And next week, I will finish ohter functions perfectly.
+
+-update edit page(loading the data at the beginning, uploading and saving avatar, remove password)
+-update create page(uploading and saving avatar)
+
+
+
+
+appendicitis
+appendectomy
+
+-risk
+edit: unique username and email except myself
+
+
+-update edit_user page(add password reset)
+-create activity log page
+-test session management
