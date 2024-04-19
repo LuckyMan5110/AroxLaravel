@@ -1,6 +1,5 @@
 - setup git on the dedicated server --> https://git-scm.com/
 
-
 Create User Login, Registration, Management & Permissions ( User Management ) system --> example https://webguard.eduardofiorini.com/group/add
 
     - all should be developed with the arox Admin panel envorement, delivered by us --> https://www.spruko.com/demo/arox/html/combined/index3.html
@@ -44,7 +43,6 @@ And next week, I will finish ohter functions perfectly.
 
 -update edit page(loading the data at the beginning, uploading and saving avatar, remove password)
 -update create page(uploading and saving avatar)
-
 
 
 
